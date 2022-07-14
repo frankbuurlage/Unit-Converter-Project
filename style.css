@@ -1,0 +1,81 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+body {
+	background: black;
+	margin: 0;
+}
+.container {
+	background: #1f2937;
+	width: 550px;
+	height: 729px;
+	align-self: center;
+	margin: 0 auto;
+}
+#converter-head {
+	background: #6943ff;
+	width: 550px;
+	height: 285px;
+	color: white;
+	text-align: center;
+	padding-top: 33px;
+	font-family: "Inter";
+	font-style: normal;
+	line-height: 38px;
+}
+
+#input-el {
+	padding: auto;
+	background: transparent;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 117px;
+	height: 83px;
+	left: 217px;
+	top: 101px;
+	border: 2px solid #b295ff;
+	border-radius: 5px;
+	margin: 0 auto;
+	font-family: "Inter";
+	font-style: normal;
+	font-size: 58px;
+}
+#input-el:focus {
+	outline: none !important;
+	border-color: #b295ff;
+	box-shadow: 0 0 10px #b295ff;
+}
+#convert-btn {
+	width: 117px;
+	height: 42px;
+	background: #ffffff;
+	margin-top: 25px;
+	border-color: transparent;
+	border-radius: 5px;
+}
+.result-header {
+	width: 500px;
+	height: 108.57px;
+	background: #273549;
+	margin-top: 22px;
+	margin-left: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.result-header h3 {
+	color: #ccc1ff;
+	font-family: "Inter";
+	font-style: normal;
+	text-align: center;
+}
+.calculated-result {
+	text-align: center;
+	color: white;
+}
